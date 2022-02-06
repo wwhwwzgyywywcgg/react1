@@ -11,7 +11,7 @@ function App() {
         <Route path="/admin">
           <Main />
         </Route>
-        {/* <Redirect from="/" to="login"></Redirect> */}
+  
       </Switch>
     </>
   );
