@@ -4,11 +4,7 @@ import { LoadingOutlined, PlusOutlined } from "@ant-design/icons";
 import { uploadUrl, dalImg } from "../utils/tools";
 import { UploadChangeParam } from "antd/lib/upload/interface";
 
-// function getBase64(img: any, callback: any) {
-//   const reader = new FileReader(); // FileReader是js内置的API，作用是读取文件数据
-//   reader.addEventListener('load', () => callback(reader.result));
-//   reader.readAsDataURL(img); // readAsDataURL 这个方法的作用是把文件转换为base64编码的字符串
-// }
+
 
 function beforeUpload(file: any) {
   const isJpgOrPng = file.type === "image/jpeg" || file.type === "image/png";
